@@ -71,6 +71,7 @@ enum ezcmd_status_e ezcmd_get_args(struct ezcmd_context_s *ctx, int *argc, char 
 
   /* Set arg pointers */
 
+  (*argc) = 0;
   args[(*argc)++] = ctx->buff;
 
   for (size_t i = 0; i < ctx->curpos; i++)
