@@ -1,1 +1,0 @@
-/usr/bin/cc -Wl,--dependency-file=CMakeFiles/ezcmd3_test.dir/link.d CMakeFiles/ezcmd3_test.dir/test.c.o CMakeFiles/ezcmd3_test.dir/ezcmd3.c.o -o ezcmd3_test
