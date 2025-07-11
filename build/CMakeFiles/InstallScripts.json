@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/martini/projects/ezcmd3/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

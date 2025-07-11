@@ -1,0 +1,8 @@
+{
+  "files.associations": {
+    "stdio.h": "c",
+    "ezcmd3.h": "c",
+    "stdlib.h": "c",
+    "string.h": "c"
+  }
+}
