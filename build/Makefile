@@ -116,6 +116,67 @@ depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
+#=============================================================================
+# Target rules for targets named ezcmd3_test
+
+# Build rule for target.
+ezcmd3_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ezcmd3_test
+.PHONY : ezcmd3_test
+
+# fast build rule for target.
+ezcmd3_test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ezcmd3_test.dir/build.make CMakeFiles/ezcmd3_test.dir/build
+.PHONY : ezcmd3_test/fast
+
+ezcmd3.o: ezcmd3.c.o
+.PHONY : ezcmd3.o
+
+# target to build an object file
+ezcmd3.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ezcmd3_test.dir/build.make CMakeFiles/ezcmd3_test.dir/ezcmd3.c.o
+.PHONY : ezcmd3.c.o
+
+ezcmd3.i: ezcmd3.c.i
+.PHONY : ezcmd3.i
+
+# target to preprocess a source file
+ezcmd3.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ezcmd3_test.dir/build.make CMakeFiles/ezcmd3_test.dir/ezcmd3.c.i
+.PHONY : ezcmd3.c.i
+
+ezcmd3.s: ezcmd3.c.s
+.PHONY : ezcmd3.s
+
+# target to generate assembly for a file
+ezcmd3.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ezcmd3_test.dir/build.make CMakeFiles/ezcmd3_test.dir/ezcmd3.c.s
+.PHONY : ezcmd3.c.s
+
+test.o: test.c.o
+.PHONY : test.o
+
+# target to build an object file
+test.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ezcmd3_test.dir/build.make CMakeFiles/ezcmd3_test.dir/test.c.o
+.PHONY : test.c.o
+
+test.i: test.c.i
+.PHONY : test.i
+
+# target to preprocess a source file
+test.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ezcmd3_test.dir/build.make CMakeFiles/ezcmd3_test.dir/test.c.i
+.PHONY : test.c.i
+
+test.s: test.c.s
+.PHONY : test.s
+
+# target to generate assembly for a file
+test.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ezcmd3_test.dir/build.make CMakeFiles/ezcmd3_test.dir/test.c.s
+.PHONY : test.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -124,6 +185,13 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... ezcmd3_test"
+	@echo "... ezcmd3.o"
+	@echo "... ezcmd3.i"
+	@echo "... ezcmd3.s"
+	@echo "... test.o"
+	@echo "... test.i"
+	@echo "... test.s"
 .PHONY : help
 
 

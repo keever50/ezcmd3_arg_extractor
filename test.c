@@ -41,7 +41,7 @@ int main()
     {
       while (ezcmd_intake(&ctx, getchar()) == EZCMD_PARSING);
 
-      enum ezcmd_status_e stat = ezcmd_get_args(&ctx, &argc, args, sizeof(*args));
+      enum ezcmd_status_e stat = ezcmd_get_args(&ctx, &argc, args, sizeof(args)/sizeof(args[0]));
       if (stat != EZCMD_OK)
         {
           printf("command error %d\n\r", stat);
